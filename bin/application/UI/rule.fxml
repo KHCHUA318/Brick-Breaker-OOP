@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="391.0" prefWidth="693.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="392.0" prefWidth="682.0">
+         <children>
+            <ImageView fitHeight="392.0" fitWidth="714.0" layoutX="-6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/RULE bg.jpg" />
+               </image>
+            </ImageView>
+            <Text fill="#3f000f" layoutX="258.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GAME RULES">
+               <font>
+                  <Font name="Forte" size="28.0" />
+               </font>
+            </Text>
+            <Text fill="#3f000f" layoutX="239.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOW TO PLAY">
+               <font>
+                  <Font name="Forte" size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="37.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Break all blocks to win">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="37.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Use ←/→ keys to move paddle">
+               <font>
+                  <Font name="Times New Roman" size="22.0" />
+               </font>
+            </Text>
+            <Text layoutX="397.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Don't let the ball drop">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="397.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- You have 3 lives">
+               <font>
+                  <Font name="Times New Roman" size="22.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="55.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/BLUE%20pack.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="55.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/GREEN%20Fish.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="55.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/PURPLE%20packedFISH.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="50.0" layoutX="390.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/RED%20boom.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="390.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/ORANGE%20boom.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="390.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/YELLOW%20boom.png" />
+               </image>
+            </ImageView>
+            <Text fill="#3f000f" layoutX="107.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="POWER-UPS">
+               <font>
+                  <Font name="Cooper Black" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="#3f000f" layoutX="447.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PENALTIES">
+               <font>
+                  <Font name="Cooper Black" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="110.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ball Protection">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="110.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Double Balls">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="110.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Double Score">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="445.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Paddle Shrink">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="445.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Paddle Slow Down">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="445.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ball Speed Up">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
